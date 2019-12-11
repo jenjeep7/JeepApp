@@ -1,5 +1,7 @@
 {
   "name": "JeepApp",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react"
 }
