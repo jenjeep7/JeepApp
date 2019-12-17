@@ -23,6 +23,7 @@ const handleTakePhoto = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
+          {console.log(availableFeatures)}
       {availableFeatures.getPhoto ? (
       <div>
         <div><IonButton onClick={handleTakePhoto}>Take Photo</IonButton></div>
